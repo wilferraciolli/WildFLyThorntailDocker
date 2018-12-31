@@ -12,7 +12,6 @@ public class RestService {
     @GET
     @Produces("text/plain")
     public Response doGet() {
-
         return Response.ok("Hello from Thorntail!").build();
     }
 }
