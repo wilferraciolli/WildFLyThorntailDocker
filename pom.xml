@@ -38,9 +38,9 @@
 	</dependencies>
 	
 	<build>
-		<finalName>restful-endpoint</finalName>
+		<finalName>wildfly</finalName>
 		<plugins>
-			<!--Create rthe uberJar-->
+			<!--Create the uberJar-->
 			<plugin>
 				<groupId>io.thorntail</groupId>
 				<artifactId>thorntail-maven-plugin</artifactId>
