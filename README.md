@@ -10,6 +10,7 @@
 
  Lastly, it has a docker file which allows to create a container and set some env vars.
 
+#Building the docker image
  To build the image type the following `docker build -t wildfly/thorntail .` This will create the docker image based on the dockerFile defined.
  Then you can run the image as follow `docker run -d -p 8080:8080 wildfly/thorntail`
 
